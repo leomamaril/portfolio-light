@@ -1,0 +1,51 @@
+/* === All Cards === */
+.card {
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+.card:hover .aa-btn-arrows{
+    background-color: var(--aa-accent) !important;
+    border: var(--aa-accent) 2px solid;
+    transform: rotate(-60deg);
+    
+  }
+  .card:hover .card-title{
+   color: var(--aa-accent);
+    
+  }
+/* === High Lighted Project Cards === */
+.aa-hl-card-h{
+    height: var(--aa-hl-card);
+}
+.aa-hl-card {
+    cursor: pointer;
+    border: none !important;
+    width: var(--aa-hl-card) !important;
+    box-shadow: none !important;
+    margin: -70px;
+    background-color: transparent !important;
+}
+.aa-hl-card-anim{
+    animation: scroll 10s linear infinite;
+    white-space: nowrap;
+}
+.aa-hl-card:nth-child(odd) {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+}
+
+.aa-hl-card:nth-child(even) {
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+}
+
+
+/* Work Experience Card */
+.aa-we-container {
+    border: #bbb 2px solid;
+    height:  100%;
+    width: 90%;
+    background-color: transparent;
+  }

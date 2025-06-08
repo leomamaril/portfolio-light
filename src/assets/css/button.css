@@ -1,0 +1,71 @@
+.aa-btn {
+    background-color: transparent;
+    color: var(--aa-primary);
+    font-size: var(--aa-fs-btn);
+    text-decoration: none;
+    padding: 0.25rem 1rem!important;
+    border: transparent 2px solid !important;
+}
+
+.aa-btn:hover svg line {
+    stroke: var(--aa-accent); 
+    
+  }
+.aa-btn:hover {
+    color: var(--aa-accent);
+
+}
+
+.aa-btn-accent {
+    background-color: var(--aa-accent);
+    color: var(--aa-white);
+    border: var(--aa-accent) 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    font-size: var(--aa-fs-btn);
+}
+
+.aa-btn-accent:hover,
+.aa-btn-outline:hover {
+    background-color: var(--aa-white);
+    color: var(--aa-accent);
+}
+
+.aa-btn-outline {
+    background-color: transparent;
+    color: var(--aa-accent);
+    border: var(--aa-accent) 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    font-size: var(--aa-fs-btn);
+  }
+
+.aa-btn-arrows {
+    background-color: var(--aa-bg-primary) !important;
+    color: #FFF !important;
+    border-radius: 50px !important;
+    border: var(--aa-border-primary);
+    height: 70px;
+    width: 70px;
+    margin: 1.5rem 0 0 1rem;
+    z-index: 10;
+    transition:
+        background-color 0.3s ease-in-out,
+        border 0.3s ease-in-out,
+        transform 0.3s ease-in-out 0.2s;
+}
+.aa-btn-arrows-con {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aa-btn-arrows-services {
+    z-index: 10;
+}
